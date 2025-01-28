@@ -1,0 +1,22 @@
+.body-container {
+    display: flex;
+    height: 100%;
+}
+
+.card {
+    width: fit-content;
+    margin: auto;
+    border-radius: 17px 17px 0 0;
+}
+
+.card>.card-header {
+    border-radius: 15px 15px 0 0;
+}
+
+.card>.card-body {
+    padding: 20px 50px 20px 50px;
+}
+
+.card>.card-footer {
+    padding: 12px 50px 42px 50px;
+}

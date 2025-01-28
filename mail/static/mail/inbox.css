@@ -1,0 +1,101 @@
+.body-container,
+.body-container>#react-app {
+    height: 100%;
+}
+
+.bg-marine {
+    background-color: #003773 !important;
+}
+
+.dropright .dropdown-toggle::after {
+    display: none;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: rgba(255, 255, 255) !important;
+}
+
+.navbar-brand {
+    font-size: 36px;
+}
+
+.icon-mail.brand {
+    padding-right: 10px;
+    vertical-align: sub;
+}
+
+.icon-mail {
+    font-size: 36px;
+    vertical-align: middle;
+}
+
+.icon-mail.sm {
+    font-size: 20px;
+}
+
+.table-link {
+    color: #6c757d !important;
+    cursor: pointer;
+}
+
+.table-link:hover,
+.table-link:focus {
+    color: rgba(0, 0, 0) !important;
+}
+
+.shadow:hover {
+    box-shadow: 0 .5rem 1rem rgba(0, 55, 115, 0.5) !important;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, .075);
+}
+
+tr.not-read {
+    border-left: 10px solid #003773;
+    background-color: #ffffff;
+}
+
+td {
+    max-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+tr>td:nth-child(2) {
+    width: 30%;
+}
+
+tr>td:nth-child(3) {
+    width: 30%;
+}
+
+td.not-read {
+    font-weight: bold;
+}
+
+td.not-read.subject {
+    color: #003773;
+}
+
+.form-control-plaintext:focus {
+    outline: 0 !important;
+    outline-offset: 0 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.card {
+    width: fit-content;
+    min-width: 650px;
+    padding: 30px;
+    border-radius: 20px;
+}

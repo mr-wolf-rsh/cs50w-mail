@@ -1,0 +1,16 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: white;
+}
+
+img {
+    width: 100%;
+}
+
+.card>.card-header,
+.card>.card-footer {
+    background-color: unset;
+}
